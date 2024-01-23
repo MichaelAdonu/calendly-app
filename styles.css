@@ -1,0 +1,524 @@
+/* Colors 
+Blue for ahead: 006aff
+Blue for 10,000,0000 : 096eff
+Blue for small Circle with nubers: 006aff
+bg for second third section(home) - fbfbfb
+
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* navbar  start*/
+.navbar-brand img{
+width: 165px;
+}
+#navbarNav{
+  margin-left: 8%;
+}
+#navbarNav ul li a{
+font-weight: bold;
+color: black;
+/* text-shadow: 1px 1px 1px black; */
+text-emphasis-color: black;
+font-size: 14px;
+}
+
+/* navbar end */
+
+/* .................. Home Page Start ........................  */
+
+/* banner section  Start*/
+.banner-container{
+  margin-top: 8%;
+}
+
+.easy-schduling-ahead h1{
+  font-size: 60px;
+  font-weight: bold;
+  color: black;
+}
+.ahead{
+  color: #006aff;
+}
+.banner-para{
+  margin-top: 40px;
+}
+.banner-para p{
+  font-weight: 500;
+}
+.banner-signup-container{
+  margin-top: 10%;
+}
+.email{
+  height: 7vh;
+  width: 20vw;
+  border-radius: 30px;
+  padding-left: 20px;
+  border:1px solid gray;
+  box-shadow: 1px 1px 1px gray;
+  position: relative; 
+}
+.signup-button{
+  height: 7vh;
+  width: 7vw;
+  border-radius: 30px;
+  position: absolute;
+  left: 25%;
+  background-color: black;
+  border: 1px solid black;
+}
+.sign-up{
+  color: white;
+  font-size: 12px;
+}
+.free-account p{
+  font-size: 12px;
+  padding-top: 5px;
+  padding-left: 10px;
+  color: gray;
+}
+#home-banner{
+ height: 70vh;
+ width: 100%;
+}
+/* banner section  End*/
+
+
+/* Users Section start */
+.users-container{
+  margin-top: 10%;
+  background-color: #fbfbfb;
+
+}
+.users-worldwide{
+  padding-top: 40px;
+}
+.ten-thousand{
+  color: #096eff;
+}
+.user-icons{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  
+}
+.user-icons img{
+ width: 70%;
+ height: 70%; 
+}
+/* Users Section end */
+
+
+/* Home Card Section  start*/
+.first-one{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.first-one .card{
+  border-bottom-left-radius: 0;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  position: relative;
+  height: 25vh;
+  border-color: rgb(239, 235, 235);
+  /* margin-left: 50px; */
+
+}
+.first-one .card-title{
+  font-weight: bolder;
+}
+.first-one .card-text{
+  padding-top: 10px;
+  font-size: 14px;
+  /* text-shadow:1px 1px 1px  black; */
+  color: rgb(52, 49, 49);
+  font-weight: 500;
+}
+.button-size{
+  position: absolute;
+  top: -8px;
+  left: -12px;
+  width: 1.1rem;
+  height: 1.1rem;
+  color: rgb(255, 255, 255);
+  background-color: #006aff ;
+  outline: none;
+  border-style: none;
+  font-size: 12px;
+  border-radius: 50px;
+  margin: 2.5px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
+.button-number{
+  font-size: 10px;
+  text-align: center;
+}
+/* Home Card Section  end*/
+
+/* ...................... Home End ...........................  */
+
+/* ....................................................  */
+/* Indivials Page  Start*/
+/* ..................................................... */
+
+/* First Section  start*/
+.better{
+  color: #006aff;
+}
+.signupfree-button{
+  height: 7vh;
+  width: 10vw;
+  border-radius: 30px;
+  background-color: black;
+  border: 1px solid black;
+}
+.sign-upfree{
+  color: white;
+  font-size: 12px;
+}
+#individual-banner{
+  height: 60vh;
+  width: 100%;
+}
+
+/* First Section end */
+
+/* Second Section  start*/
+#individual-banner2{
+  height: 32vh;
+  width: 80%;
+  margin-left: 15%;
+}
+.curated-calender h6{
+font-size: 12px;
+color: gray;
+
+}
+.curated-calender h1{
+  font-weight: bolder;
+  font-size: 30px;
+  color: black;
+  margin-top: 15px;
+}
+.curated-calender p{
+  font-size: 14px;
+  margin-top: 30px;
+}
+/* Second Section end */
+
+/* Third Section  start*/
+#individual-banner3{
+  height: 35vh;
+  width: 90%;
+}
+/* Third Section  end*/
+
+/* Fouth Section  start*/
+#main-individual-banner{
+  width: 100%;
+  height: 80vh;
+}
+/* Fouth Section  end*/
+
+/* colours 
+easy and h4 #00143d 
+links #dae0e6
+*/
+
+/* Footer Section  */
+ .footer-links{
+  margin-bottom: 30px;
+  margin-top: 10px;
+ }
+
+ .footer-links h4{
+  color: #00143d ;
+  font-size: 18px;
+  font-weight: 900;
+ }
+  .footer-links ul{
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ }
+  .footer-links ul li{
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  }
+   .footer-links ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #4a72b6;
+    display: inline-block;
+    }
+    .footer-easy{
+      font-size: 30px;
+      font-weight: 900;
+      color: #00143d ;
+    }
+    .footer-ahead{
+      font-size: 30px;
+      font-weight: 900;
+      color: #006aff;
+    }
+    .footer-para{
+      font-size: 12px;
+      color:#4a72b6 ;
+    }
+    .footer1-container{
+      width:22vw;
+      margin-right: 5%;
+    }
+    .footer-container{
+      margin-left: 15%;
+    }
+/* Footer Section  */
+
+/* ........................................................ */
+/* Indivials Page End */
+/* ........................................................ */
+
+
+/* ........................................................ */
+/* Teams Page Start */
+/* ........................................................ */
+
+/* Colurs 
+dark blue: #043256
+light dark blue: #002249
+*/
+
+
+/* First section  start*/
+.powerup-team{
+  font-size: 28px;
+  font-weight: bolder;
+  color: #043256;
+}
+.power-up{
+  color:#006aff ;
+}
+.team-banner1-para{
+  color: #4a72b6;
+}
+.startfree-button{
+  height: 7vh;
+  width: 10vw;
+  border-radius: 30px;
+  background-color: #006aff;
+  border: 1px solid #006aff;
+}
+.contact-sales-button{
+  height: 7vh;
+  width: 10vw;
+  border-radius: 30px;
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+  margin-left: 3%;
+}
+
+.start-free{
+  color: white;
+  font-size: 12px;
+}
+.contact-sales{
+  color: rgb(0, 0, 0);
+  font-size: 11px;
+  font-weight: 700;
+}
+#team-banner1{
+  width: 90%;
+  height: 80%;
+}
+/* First section  end*/
+
+/* Second Section start */
+.streamline-tasks{
+  margin-top: 3%;
+  
+}
+.streamline-tasks h1{
+  margin-top: 3%;
+  color: #00143d ;
+  font-weight: 700;
+}
+/* Second Section  end*/
+
+
+/* Third Section  start*/
+.automated-assigments h6{
+ font-size: 12px;
+ font-weight: 600;
+ color: #006aff;
+}
+.automated-assigments h1{
+  font-size: 25px;
+  font-weight: 700;
+  color: #00143d;
+ }
+ .automated-assigments p{
+  font-size: 14px;
+  color: rgb(122, 118, 118);
+ }
+ #team-banner2{
+  height: 40vh;
+  margin-left: 15%;
+ }
+/* Third Section end */
+
+/* Fourth Section  start*/
+.card-container{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.solution-work-container{
+margin-bottom: 3%;
+}
+.card{
+  height: 50vh;
+}
+.card img{
+  height: 20vh;
+}
+.solution-work-container p{
+  font-size: 12px;
+  color: #096eff;
+  font-weight: 600;
+}
+.solution-work-container h1{
+  font-size: 28px;
+  color: #00143d;
+  font-weight: 700;
+}
+
+.card-body h5{
+  font-size: 18px;
+  color:#4a72b6
+}
+.card-body p{
+  font-size: 13px;
+  color: #4a72b6;
+  
+}
+.card-body a{
+  text-decoration: none;
+  font-size: 14px;
+}
+/* Fourth Section end */
+
+
+/* ........................................................ */
+/* Teams Page End */
+/* ........................................................ */
+
+
+
+/* ........................................................ */
+/* Enterprice Page Start */
+/* ........................................................ */
+
+/* First Section  start*/
+.enterprice-container1{
+  margin-bottom: 2%;
+}
+.enterprice-container1 h1{
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 2%;
+}
+.enterprice-container1 .way-more{
+  color: #006aff;
+}
+.enterprice-container1 p{
+  font-weight: 700;
+}
+.enterprice-container1 .contact-sales-button{
+  height: 7vh;
+  width: 10vw;
+  border-radius: 30px;
+  background-color: black;
+  border: 1px solid black;
+}
+.contact-sales-button .sales{
+  color: white;
+  font-size: 12px;
+}
+/* First Section end */
+
+/* second section  start*/
+.enterprice-banner img{
+  width: 100%;
+}
+/* second section end */
+
+/* third section  start*/
+.enterprice-card{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 75%;
+}
+.enterprice-card .card{
+  border-radius: 20px;
+  height: 60vh;
+  border-color: rgb(232, 229, 229);
+  box-shadow: 1px 1px 1px 1px rgb(232, 229, 229);
+}
+.enterprice-card h5{
+  padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+  color: #006aff;
+  font-size: 15px;
+}
+.enterprice-card p{
+  color: black;
+  font-weight: 600;
+}
+.enterprice-card img{
+  width: 10rem;
+  height: 10rem ;
+}
+.enterprice-card .card-button{
+  height: 5vh;
+  width: 7vw;
+  border-radius: 30px;
+  background-color: black;
+  border: 1px solid black;
+  
+}
+.enterprice-card .learn-more{
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.card-button-container{
+  margin-top: 2%;
+}
+
+/* third section  end*/
+
+
+
+/* ........................................................ */
+/* Enterprice Page End */
+/* ........................................................ */
+
+
